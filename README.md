@@ -56,9 +56,9 @@ $ picocom --b 115200 /dev/ttyUSB0
 ```sh
 CONST_WIFISSID = "Freifunk"
 CONST_WIFIPW = ""
-CONST_APITOKEN = "" #api key of openweathermap.org
+CONST_APITOKEN = "" #api key of philhil.de
 CONST_SERVERURI = "http://philhil.de/openWaterer/index.php"
-CONST_API_KEY = '' #api key of philhil.de
+CONST_API_KEY = '' #api key of openweathermap.org
 CONST_ZIP = '70825'
 CONST_COUNTRY = 'DE'
 ```
