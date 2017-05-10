@@ -7,7 +7,9 @@
 ESP8266 plant water automation
 
 ## Description
-tbd
+This project is a plant water automation. It is a open source project with open Hardware components to ensure maximum openness and expandability. 
+The aim is to ensure an automated watering system by sensors. Based on the measured data and weather predictions the water pump would be activated. This Project should support urban gardening and local growed organic products.
+
 
 ## Part list
 
@@ -46,4 +48,17 @@ $ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0
 ```sh
 $ picocom --b 115200 /dev/ttyUSB0
 >>> import webrepl_setup
+```
+#### Now we have to setup the config parameters in main.py:
+1. Create an Account and get an API key at https://home.openweathermap.org/api_keys
+2. Get an api token from philhil.de (contact me on github)
+3. Setup Variables in main.py 
+```sh
+CONST_WIFISSID = "Freifunk"
+CONST_WIFIPW = ""
+CONST_APITOKEN = "" #api key of openweathermap.org
+CONST_SERVERURI = "http://philhil.de/openWaterer/index.php"
+CONST_API_KEY = '' #api key of philhil.de
+CONST_ZIP = '70825'
+CONST_COUNTRY = 'DE'
 ```
