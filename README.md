@@ -9,6 +9,7 @@ ESP8266 plant water automation
 ## Description
 This project is a plant water automation. It is a open source project with open Hardware components to ensure maximum openness and expandability. 
 The aim is to ensure an automated watering system by sensors. Based on the measured data and weather predictions the water pump would be activated. This Project should support urban gardening and local growed organic products.
+The Programm is based on the MicroPython Project https://micropython.org/
 
 
 ## Part list
